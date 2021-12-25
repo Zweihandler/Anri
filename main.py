@@ -21,6 +21,8 @@ with sr.Microphone() as source:
     
         if str(Text).lower() == 'time': #kata kunci untuk menampilkan date time
 
+            print("kata masukan : ", Text)
+
             now = datetime.now() 
             year = now.strftime("%Y")
             print("year:", year)
