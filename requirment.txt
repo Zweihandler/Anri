@@ -1,0 +1,3 @@
+menggunakan :
+pocketsphinx 0.1.15 
+SpeechRecognition 3.8.1 
